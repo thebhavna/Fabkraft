@@ -1,0 +1,1139 @@
+@font-face {
+    font-family: 'MacklinSans';
+    src:  url('MacklinSans.ttf') format('truetype'),
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    margin: 12px 0;
+}
+.search-bar{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.search-bar input{
+    border: 1px solid #000;
+    width: 350px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.search-bar i{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.icons{
+    float: right;
+    margin-top: 36px;
+}
+.icons img{
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar_main{
+    background: #2e66b1;
+    margin-top: 10px;
+    height: 90px;
+}
+.navbar-expand-lg .navbar-nav img{
+    float: left;
+    max-width: 25px;
+    height: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    float: left;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 30px;
+    color: #ffffff;
+    line-height: 6px;
+    background-position: top left;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #CCE7FF;
+}
+#banner{
+    background-color: #CCE7FF;
+    height: 600px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 60px;
+}
+#banner .carousel-caption{
+    position: static;
+    right: auto;
+    left: 5%;
+    text-align: left;
+    bottom: auto;
+    margin-top: 90px;
+}
+#banner .carousel-inner h1{
+    margin:0px;
+    padding: 0px;
+    color: #2e66b1;
+    font-size: 50px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+#banner .carousel-inner p{
+    margin:0px;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+#banner .carousel-inner a{
+    background-color: #2e66b1;
+    color: #ffffff;
+    width: 235px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#banner .carousel-inner a:hover{
+    background-color: #0e2845;
+}
+.container h1{
+    margin:0px;
+    padding: 0px;
+    margin-top: 60px;
+    color: #2e66b1;
+    font-size: 50px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.newsletter h1 {
+    color: #fff;
+}
+.margin_top{
+    margin-top: 30px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.img_border img{
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.30);
+    border-radius: 22px;
+}
+.img_border img:hover{
+    transform: scale(1.05);
+}
+.all_categories{
+    background-color: #2e66b1;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.all_categories h1{
+    margin-top: 20px;
+    color: #ffffff;
+}
+.all_categories .float_right {
+    float: right;
+   font-size: 15px;
+   margin-top: 20px;
+}
+
+.all_categories a{
+    color: #ffffff;
+    
+   
+}
+.all_categories a h6{
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+.all_categories h5{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.all_categories img:hover{
+    transform: scale(1.05);
+}
+.category-btn{
+    position: absolute;
+    top: 100px;
+    z-index: 999;
+}
+.category-btn.previous{
+    left: -45px;
+}
+.category-btn.next{
+    right: -45px;
+}
+.whychooseus{
+    background-color: #F0F8FF;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+.box{
+    max-width: 100%;
+    background-color: #2e66b1;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px;
+}
+.box img{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 150px;
+   
+}
+.whychooseus h5{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #2e66b1;
+}
+.box_text{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 35px 15px;
+}
+
+.testimonials{
+    background-color: #2e66b1;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+.testimonials h1{
+    color: #ffffff;
+    text-align: center;
+}
+.reviews p{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+.reviews h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+}
+.reviews .rating img{
+    margin-top: 10px;
+}
+.stats{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.bg_color{
+    background-color: #CCE7FF;
+}
+.stats_top_margin{
+    margin-top: 60px;
+}
+.stats h1{
+    margin: 0;
+    padding: 0;
+    padding: 40px 0px 0px 0px;
+    color: #626060;
+    font-size: 45px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.stats p{
+    margin: 0;
+    padding: 0;
+    padding: 0px 0px 40px 0px;
+    color: #626060;
+    font-size: 21px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.newsletter{
+    background-image: url(../images/NewsletterBG.jpg);
+    padding-bottom: 60px;
+}
+
+.newsletter p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+.form-control{
+    
+    background-color: rgba(255, 255, 255, 0.50);
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subscribe{
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    padding: 2px;
+    border-radius: 6px;
+    margin-top: 90px;
+
+}
+.subscribe .input-group input::placeholder {
+    color: #363636 !important;
+    font-size: 13px;
+}
+.subscribe_button{
+    color: #ffffff;
+    background-color: #2e66b1;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.subscribe_button:hover{
+    background-color: #0e2845;
+}
+.footer{
+    background-color: #2e66b1;
+}
+.footer .footer_padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer .row h4{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.footer .row ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.footer .row a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer .row a:hover{
+    color: #CCE7FF;
+}
+.footer .row img{
+    margin-top: 10px;
+}
+.footer .row a img{
+    
+    margin: 10px;
+}
+.footer .row .social{
+    margin-top: 30px;
+}
+
+.footer .copyright{
+    background: #0e2845;
+    
+}
+.footer .copyright p {
+    color: rgba(255, 255, 255, 0.70);
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer .copyright img{
+    margin-top: 12px;
+    height: 35px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* Category Page CSS*/
+#bnr{
+    background-color: #CCE7FF;
+    height: 400px;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 60px;
+}
+h4{
+    color: #2e66b1;
+    font-size: 24px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.bnr_text{
+    margin-top: 130px;
+}
+#bnr p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#bnr img{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+.margin_subtext h5{
+    margin-top: 10px;
+}
+.category_text{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #CCE7FF;
+}
+.category_text h5{
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+    text-align: left;
+}
+#accordionLeft{
+    margin-top: 12px;
+}
+#accordionLeft .accordion-button {
+    background-color: transparent;
+    padding-left: 0;
+}
+#accordionLeft .accordion-item{
+    background-color: transparent;
+}
+
+#accordionLeft .accordion-button:not(.collapsed){
+   
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    
+    color: #2e66b1;
+}
+.accordion-body ul{
+    margin: 0;
+    padding: 0;
+}
+.accordion-body ul li {
+    margin-left: 15px;
+    padding: 8px 0;
+    border-bottom: 1px dotted #8eafda;
+}
+.accordion-body ul li:last-child {
+    border-bottom: 0;
+}
+.accordion-body ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+}
+.accordion-body ul li a:hover{
+    color: #2e66b1;
+}
+
+.price_range{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #CCE7FF;
+}
+.price_range .form-label{
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+}
+.price_range .form-range{
+    color: #797878;
+}
+.sales_checkbox{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #CCE7FF;
+}
+.sales_checkbox h5{
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+    text-align: left;
+}
+.sales_checkbox .form-check{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.categories_img {
+    position: relative;
+    
+}
+.categories_img img{
+    width: 100%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.30);
+    border-radius: 22px;
+    
+}
+
+.categories_img:hover{
+    transform: scale(1.05);
+}
+.ribbon-2 {
+  --f: 10px; /* control the folded part*/
+  --r: 15px; /* control the ribbon shape */
+  --t: 10px; /* the top offset */
+  
+  position: absolute;
+  inset: var(--t) calc(-1*var(--f)) auto auto;
+  padding: 0 10px var(--f) calc(10px + var(--r));
+  clip-path: 
+    polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+      calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+      var(--r) calc(50% - var(--f)/2));
+  background: #77C6FF;
+  box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+  text-align: center;
+  color: #000;
+  top: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.pagination .page-link, .page-item:first-child, .page-item:last-child{
+    border: none;
+    color: #000;
+    background-color: transparent;
+    border-radius: 50px !important;
+}
+.pagination .page-link:hover, .page-item:first-child:hover, .page-item:last-child:hover {
+    background-color: #2e66b1;
+    border-radius: 45px;
+    color: #ffffff;
+}
+.pagination .page-link:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.pagination .page-item .page-link ul li a{
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h6{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Product Page CSS*/
+h3{
+    color: #2e66b1;
+    font-size: 30px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.product_img img{
+    width: 100%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.30);
+    border-radius: 22px;
+}
+.product_details{
+    height: 858px;
+    overflow: auto;
+    width: 100%;
+}
+#ratings p{
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #2e66b1;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.product_text p{
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e66b1;
+    background-color: transparent;
+    outline: 2px solid #2e66b1;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+.price_icon img {
+    height: 22px;
+    float: left;
+    margin: 3px 0;
+}
+.price_color h4{
+    color: #625454;
+}
+.cta_button a{
+    color: #ffffff;
+    background-color: #2e66b1;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+}
+.cta_button a:hover{
+    background-color: #0e2845;
+}
+.description{
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.margin_bottom{
+    margin-bottom: 10px;
+}
+.product_features p{
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.product_features p strong{
+    color: #2e66b1;
+}
+.product_reviews .review_box{
+    margin-top: 30px;
+    background-color: #CCE7FF;
+    border-radius: 10px;
+    padding: 30px;
+}
+.product_reviews .review_box h6{
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+    text-align: left;
+}
+.product_reviews .review_box img{
+    margin-top: 5px;
+}
+.product_reviews .review_box p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.loadmore_btn{
+    text-align: center;
+}
+.loadmore_btn button{
+    color: #ffffff;
+    background-color: #2e66b1;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+}
+.loadmore_btn button:hover{
+    background-color: #0e2845;
+}
+#accordionfaqs{
+    margin-top: 30px;
+}
+#accordionfaqs .accordion-button{
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: #2e66b1;
+
+}
+#accordionfaqs .accordion-button:not(.collapsed){
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: #2e66b1;
+}
+#accordionfaqs .accordion-item{
+    color: #797878;
+}
+
+
+/* Add to Cart Page CSS*/
+.cart_bg{
+    background-color: #CCE7FF;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.white_bg{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.white_bg h6{
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+    text-align: left;
+}
+.white_bg p{
+    color: #797878;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mugimg img{
+    border: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.quantity_icon h6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.quantity_icon a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    background-color: #2e66b1;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+}
+.quantity_icon img{
+    
+    border-radius: 15px;
+    padding: 5px;
+}
+.quantity_icon span{
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e66b1;
+    text-align: center;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.rupee_icon{
+    width: 22px;
+    margin-bottom: 5px;
+}
+.checkoutbg{
+    background-color: #CCE7FF;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.checkoutbg h1{
+    margin-top: 0;
+}
+.promocode{
+    background-color: #CCE7FF;
+    padding: 30px;
+    border-radius: 20px;
+}
+.promocode h3{
+    font-size: 24px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.couponcode{
+    border: 2px solid #2e66b1;
+    padding: 2px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.couponcode button{
+    color: #ffffff;
+    background-color: #2e66b1;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: calc(var(--bs-border-width) * -1);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.couponcode button:hover{
+    background-color: #0e2845;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    size: 2;
+    color: #797878;
+}
+.promocode h6{
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #2e66b1;
+}
+.promocode span{
+    color: #797878;
+}
+.promocode .promocode_right h6{
+    color: #000;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+.checkout_btn button{
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #2e66b1;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+.checkout_btn button:hover{
+    background-color: #0e2845;
+}
+
+/* Contact Us Page CSS*/
+.formbg{
+    padding: 30px;
+    
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.formbg button{
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #2e66b1;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+input::placeholder {
+    color: #adadad !important;
+    font-size: 13px;
+}
+.contact-us iframe{
+    border-radius: 20px;
+}
+.formbg h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.formbg label{
+    color: #2e66b1;
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+textarea::placeholder {
+    color: #adadad !important;
+    font-size: 13px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    h1, h2, h3, h4, h5, h6, p{
+        margin: 0;
+        padding: 0;
+    }
+    .logo, .search-bar, .icons, .footer .row .social a img{
+        float: none;
+    }
+    .search-bar, .search-bar input, .search-bar input:focus{
+        width: 100%;
+        
+    }
+    .search-bar{
+        margin-left: 0;
+    }
+    .search-bar input:focus{
+        outline: none;
+    }
+    .nav-item img{
+        display: none;
+    }
+    .navbar-collapse {
+        background-color: #2e66b1;
+        position: absolute;
+        z-index: 9999;
+        top: 67px;
+        left: 12px;
+        right: 12px;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    .nav-item a{
+        color: #2e66b1;
+        margin-top: 10px;
+    }
+	.navbar .navbar-expand-lg .navbar_main{
+        width: 100%;
+    }
+	#banner{
+        width: auto;
+        height: auto;
+    }
+    #banner .carousel-item img{
+        margin-right: auto;
+    }
+    #banner .carousel-caption{
+        position: static;
+        text-align: center;
+        margin-top: 0;
+    }
+	#banner .carousel-inner h1{
+        font-size: 20px;
+        
+    }
+    #banner .carousel-inner p{
+        margin-top: 30px;
+        font-size: 15px;
+        
+    }
+    #banner .carousel-inner a{
+        font-size: 18px;
+        
+    }
+    .container h1{
+        font-size: 25px;
+    }
+
+    .row .col-lg-3{
+        
+        text-align: center;
+        margin-top: 10px;
+    }
+    .category-btn.previous, .category-btn.next{
+        display: none;
+    }
+    
+    .whychooseus .col-lg-3{
+        margin-top: 30px;
+    }
+    .whychooseus .col-lg-3 .box{
+        width: 320px;
+        margin: auto;
+    }
+    
+    .testimonials h1{
+        font-size: 30px;
+    }
+    .reviews p{
+        font-size: 15px;
+    }
+    .reviews h3{
+        font-size: 20px;
+    }
+    .footer .row .social a img{
+        text-align: center;
+    }
+
+/* Category Page CSS*/
+#bnr{
+    height: auto;
+}
+.bnr_text {
+    margin-top: 40px;
+}
+#bnr p {
+    margin-bottom: 10px;
+}
+h6{
+    margin-top: 10px;
+}
+.categories_img img {
+    border-radius: 40px;
+}
+#ratings p{
+    font-size: 18px;
+    text-align: center;
+
+
+}
+#ratings img{
+    height: 20px;
+}
+.product_text p{
+    font-size: 15px;
+    margin-top: 1px;
+
+    
+}
+.product_details #ratings .product_text{
+    margin-right: 10px;
+}
+
+/* Product Page CSS*/
+h3{
+    margin-top: 10px;
+}
+.img_radius img{
+    border-radius: 20px;
+}
+.product_text p {
+    margin-left: 0px;
+}
+
+
+.cta_button a{
+    width: 170px;
+}
+
+/* Add to Cart Page CSS*/
+.quantity_icon h6{
+    text-align: left;
+}
+.cart_bg{
+    margin-top: 30px;
+}
+
+/* Contact Us Page CSS*/
+.contact-us iframe{
+    height: 300px;
+}
+
+
+
+
+}
